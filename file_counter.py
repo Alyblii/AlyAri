@@ -2,7 +2,7 @@ import os
 import sys
 
 def count_files_folders():
-    
+    #egegfs
     path = input("Введите путь к папке: ")
     
     

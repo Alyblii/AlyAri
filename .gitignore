@@ -1,0 +1,4 @@
+.venv
+AlyAri
+__pycache__/
+*.log
