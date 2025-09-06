@@ -1,4 +1,4 @@
 print("a")
-print("hello")
+print("hello world")
+# This is a comment
 print("b")
-text = "Приветик"
