@@ -1,0 +1,45 @@
+diff --git a/coolstory.txt b/coolstory.txt
+new file mode 100644
+index 0000000..d5b0ca7
+--- /dev/null
++++ b/coolstory.txt
+@@ -0,0 +1,3 @@
++aboba
++aboba
++abib
+\ No newline at end of file
+diff --git a/count_aboba.py b/count_aboba.py
+new file mode 100644
+index 0000000..02abecd
+--- /dev/null
++++ b/count_aboba.py
+@@ -0,0 +1,13 @@
++def count_aboba(filename):
++    try:
++        with open(filename, 'r') as file:
++            content = file.read()
++            count = content.lower().count('aboba')
++            return count
++    except FileNotFoundError:
++        return "File not found"
++
++file = "C:/Users/Student/AlyAri/coolstory.txt"
++
++result = count_aboba(file)
++print(f"Count of 'aboba': {result}")
+\ No newline at end of file
+diff --git a/file.txt b/file.txt
+new file mode 100644
+index 0000000..bd11d3a
+--- /dev/null
++++ b/file.txt
+@@ -0,0 +1 @@
++Second line
+diff --git a/solevaya.txt b/solevaya.txt
+new file mode 100644
+index 0000000..cd31301
+--- /dev/null
++++ b/solevaya.txt
+@@ -0,0 +1 @@
++:)
+\ No newline at end of file
