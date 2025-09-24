@@ -3,4 +3,4 @@
 work()  
 
 
-def work(t: str):  
+def work(t: int):  
